@@ -1,7 +1,6 @@
 import falcon
 import os
 import pystache
-<<<<<<< HEAD
 import logging
 import json
 import random

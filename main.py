@@ -17,12 +17,17 @@ def load_template(filename, context={}):
     content = f.read()
     return pystache.render(content, context)
 
-def pick_quote():
+def pick_quote(searched_quote=None):
     data = json.load(open('resources/quotes.json'))
-    number_of_quotes = len(data["quotes"])
-    quote_index = random.randint(0,number_of_quotes-1)
-    quote = data["quotes"][quote_index]
-    log.error(quote)
+    if searched_quote:
+        for quote in data["quotes"]:
+            if quote['quote_url_share'] == searched_quote:
+                return (quote)
+        return None
+    else:
+        number_of_quotes = len(data["quotes"])
+        quote_index = random.randint(0, number_of_quotes-1)
+        quote = data["quotes"][quote_index]
     return (quote)
 
 class MainResource:
@@ -35,16 +40,22 @@ class MainResource:
         resp.body = load_template('index.html', context)
 
 class QuoteResource:
-    def on_get(self, req, resp):
+    def on_get(self, req, resp, quote=None):
         resp.status = falcon.HTTP_200
         resp.content_type = 'text/html'
-        context = pick_quote()
+        picked_quote = pick_quote(quote)
 
-        resp.body = load_template('quote.html', context)
+        if picked_quote == None:
+            resp.status = falcon.HTTP_301
+            resp.set_header('Location', '/dice')
+        else:
+            context = picked_quote
+            resp.body = load_template('quote.html', context)
 
 
 app = falcon.API()
 
 app.add_route('/', MainResource())
 app.add_route('/dice', QuoteResource())
+app.add_route('/dice/{quote}', QuoteResource())
 app = StaticMiddleware(app, static_root='static', static_dirs=STATIC_DIRS)

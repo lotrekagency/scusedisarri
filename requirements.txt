@@ -4,3 +4,4 @@ pystache==0.5.4
 python-mimeparse==1.6.0
 six==1.11.0
 wheel==0.24.0
+wsgi-static-middleware==0.1.2

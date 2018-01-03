@@ -1,5 +1,11 @@
 import falcon
+import os
 import pystache
+from wsgi_static_middleware import StaticMiddleware
+
+
+BASE_DIR = os.path.dirname(__name__)
+STATIC_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 
 def load_template(filename, context={}):
@@ -23,6 +29,8 @@ class QuoteResource:
         resp.body = load_template('quote.html')
 
 
-api = falcon.API()
-api.add_route('/', MainResource())
-api.add_route('/dice', QuoteResource())
+app = falcon.API()
+
+app.add_route('/', MainResource())
+app.add_route('/dice', QuoteResource())
+app = StaticMiddleware(app, static_root='static', static_dirs=STATIC_DIRS)

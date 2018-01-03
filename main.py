@@ -63,10 +63,10 @@ class QuoteResource:
             resp.set_header('Location', '/dice')
         else:
             context = picked_quote
-            context = {
+            context.update({
                 'live_url' : LIVE_URL,
                 'og_image_url' :  pick_og_image()
-            }
+            })
             resp.body = load_template('quote.html', context)
 
 

@@ -20,7 +20,7 @@ class QuoteResource:
     def on_get(self, req, resp):
         resp.status = falcon.HTTP_200
         resp.content_type = 'text/html'
-        resp.body = load_template('says.html')
+        resp.body = load_template('quote.html')
 
 
 api = falcon.API()

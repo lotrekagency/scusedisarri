@@ -5,7 +5,7 @@
 background: -moz-linear-gradient(45deg, #87e0fd 0%, #53cbf1 40%, #02a1db 100%);
 background: -webkit-linear-gradient(45deg, #87e0fd 0%,#53cbf1 40%,#02a1db 100%);
 background: linear-gradient(45deg, #87e0fd 0%,#53cbf1 40%,#02a1db 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#02a1db',GradientType=1 );}.container{margin:auto;padding-top:105px}.title{text-align:center;margin:auto;font-size:2rem;font-weight:550;padding-top:105px}.subtitle{text-align:center;margin:auto font-size:1rem}.social{text-align:center;margin:auto font-size:0.2rem}a:link{color:#f3f3f3;text-decoration:none}a:visited{color:#f3f3f3;text-decoration:none}a:hover{color:#f3f3f3;text-decoration:underline}a:active{color:#f3f3f3;text-decoration:none}
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#02a1db',GradientType=1 );}.container{margin:auto;padding-top:105px}.title{text-align:center;margin:auto;font-size:2rem;font-weight:550;padding-top:105px}.subtitle{text-align:center;margin:auto font-size:1rem}.social{text-align:center;margin:auto font-size:0.2rem}a:link{color:#f3f3f3;text-decoration:none}a:visited{color:#f3f3f3;text-decoration:none}a:hover{color:#f3f3f3;text-decoration:underline}a:active{color:#f3f3f3;text-decoration:none}.generate-button{text-align:center;margin:auto;background-color:#02a1db;border:none;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px}
 </style>
 <meta charset="utf-8">
 
@@ -18,8 +18,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', end
 <meta property="og:description" content="{{quote}}" />
 <meta property="og:url" content="{{live_url}}/dice/{{quote_url_share}}" />
 <link rel="canonical" href="{{live_url}}/dice/{{quote_url_share}}"/>
-
+<meta name="twitter:image" content="{{og_image_url}}" />
 <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@LotrekAgency" />
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://www.sscnapoli.it/prehome/html/img/favicon/apple-touch-icon-57x57.png"
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.sscnapoli.it/prehome/html/img/favicon/apple-touch-icon-114x114.png" />
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.sscnapoli.it/prehome/html/img/favicon/apple-touch-icon-72x72.png" />
@@ -50,6 +51,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', end
     </p>
 </div><br>
     <div>
+        <center><a class="generate-button" href="/dice">Genera un'altra scusa!</a></center><br><br>
         <h4 class="subtitle">Condividi la scusa sui social!</h4>
         <p class="social">
             <a  class="social_button"
@@ -57,6 +59,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', end
             <a  class="social_button"
                 href="https://twitter.com/home?status={{live_url}}/dice/{{quote_url_share}}">Twitter</a>
         </p>
+
     </div>
-</div>
+
+</div><br><br>
+<footer>
+    <center>
+        made by <a class="social" href="https://lotrek.it">Lotrèk</a>
+    </center>
+    </footer>
 </body>

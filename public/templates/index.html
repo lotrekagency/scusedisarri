@@ -4,9 +4,10 @@
 background: -moz-linear-gradient(45deg, #87e0fd 0%, #53cbf1 40%, #02a1db 100%);
 background: -webkit-linear-gradient(45deg, #87e0fd 0%,#53cbf1 40%,#02a1db 100%);
 background: linear-gradient(45deg, #87e0fd 0%,#53cbf1 40%,#02a1db 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#02a1db',GradientType=1 );}h1,p{text-align:center;margin:auto;font-size:5rem;font-weight:550;padding-top:105px}a{text-align:center;margin:auto;background-color:#02a1db;border:none;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px}
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#02a1db',GradientType=1 );}h1,p{text-align:center;margin:auto;font-size:5rem;font-weight:550;padding-top:105px}.generate-button{text-align:center;margin:auto;background-color:#02a1db;border:none;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px}.social{text-align:center;margin:auto font-size:0.2rem}a:link{color:#f3f3f3;text-decoration:none}a:visited{color:#f3f3f3;text-decoration:none}a:hover{color:#f3f3f3;text-decoration:underline}a:active{color:#f3f3f3;text-decoration:none}
 </style>
 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<meta charset="utf-8">
 
 <meta name="msapplication-TileColor" content="#02a1db">
 <meta name="theme-color" content="#02a1db">
@@ -17,8 +18,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', end
 <meta property="og:description" content="Trova la scusa perfetta per ogni occasione grazie a Sarr" />
 <meta property="og:url" content="{{live_url}}" />
 <link rel="canonical" href="{{live_url}}"/>
-
+<meta name="twitter:image" content="{{og_image_url}}" />
 <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@LotrekAgency" />
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://www.sscnapoli.it/prehome/html/img/favicon/apple-touch-icon-57x57.png"
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.sscnapoli.it/prehome/html/img/favicon/apple-touch-icon-114x114.png" />
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.sscnapoli.it/prehome/html/img/favicon/apple-touch-icon-72x72.png" />
@@ -45,7 +47,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', end
     <p>
         <h1>Trova la scusa con Sarri</h1>
     <br>
-        <a href="{{live_url}}/dice">Genera la scusa perfetta!</a>
+        <a class="generate-button" href="{{live_url}}/dice">Genera la scusa perfetta!</a>
     </p>
 </center>
+<footer>
+    <center>
+        made by <a class="social" href="https://lotrek.it">Lotrèk</a>
+    </center>
+    </footer>
 </body>

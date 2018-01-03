@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gunicorn main:api
+gunicorn main:app

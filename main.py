@@ -1,8 +1,15 @@
 import falcon
+import os
 import pystache
+<<<<<<< HEAD
 import logging
 import json
 import random
+from wsgi_static_middleware import StaticMiddleware
+
+
+BASE_DIR = os.path.dirname(__name__)
+STATIC_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 log = logging.getLogger('SarriLogger')
 
@@ -37,9 +44,8 @@ class QuoteResource:
         resp.body = load_template('quote.html', context)
 
 
-api = falcon.API()
-api.add_route('/', MainResource())
-api.add_route('/dice', QuoteResource())
+app = falcon.API()
 
-
-
+app.add_route('/', MainResource())
+app.add_route('/dice', QuoteResource())
+app = StaticMiddleware(app, static_root='static', static_dirs=STATIC_DIRS)

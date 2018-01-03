@@ -8,7 +8,7 @@ from wsgi_static_middleware import StaticMiddleware
 
 
 BASE_DIR = os.path.dirname(__name__)
-STATIC_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_DIRS = [os.path.join(BASE_DIR, 'public')]
 
 log = logging.getLogger('SarriLogger')
 

@@ -1,63 +1,53 @@
 { "quotes" : [
     {"quote_url_share":"giovedi-sera-calcetto",
-     "quote" : "I giocatori non si sono impegnati perché hanno preferito preservare le forze. Giovedì sera hanno il calcetto",
-     "og_image_url": ""},
+     "quote" : "I giocatori non si sono impegnati perché hanno preferito preservare le forze. Giovedì sera hanno il calcetto"},
 
     {"quote_url_share":"cane-mangia-schemo",
-     "quote" : "Purtroppo questa settimana non ho potuto preparare i ragazzi alla partita. Il cane mi ha mangiato gli schemi",
-     "og_image_url": ""},
+     "quote" : "Purtroppo questa settimana non ho potuto preparare i ragazzi alla partita. Il cane mi ha mangiato gli schemi"},
 
     {"quote_url_share":"a-pes-siamo-primi",
-     "quote" : "Il campionato e le coppe non sono la nostra specialità. Ma a PES siamo primi.",
-     "og_image_url": ""},
+     "quote" : "Il campionato e le coppe non sono la nostra specialità. Ma a PES siamo primi."},
 
     {"quote_url_share":"la-palla-ha-preso-la-mano-di-mertens",
-     "quote" : "Mertens non ha preso la palla con la mano. È la palla che ha preso la mano di Mertens",
-     "og_image_url": ""},
+     "quote" : "Mertens non ha preso la palla con la mano. È la palla che ha preso la mano di Mertens"},
 
     {"quote_url_share":"arbitro-razzista",
-     "quote" : "Il fallo di mano di Mertens è stato fischiato perché l'arbitro è razzista. Quando successe con Maradona nessuno disse niente soltanto perché era italiano",
-     "og_image_url": ""},
+     "quote" : "Il fallo di mano di Mertens è stato fischiato perché l'arbitro è razzista. Quando successe con Maradona nessuno disse niente soltanto perché era italiano"},
 
     {"quote_url_share":"infortunio-milik",
-     "quote" : "Cosa penso dell'infortunio di Milik? È tutta colpa delle strisce chimiche!",
-     "og_image_url": ""},
+     "quote" : "Cosa penso dell'infortunio di Milik? È tutta colpa delle strisce chimiche!"},
 
     {"quote_url_share":"giocatori-stranieri",
-     "quote" : "È vero, non abbiamo vinto. Ci sono molti giocatori stranieri in squadra e ancora non si sono accordati su quale lingua parlare.",
-     "og_image_url": ""},
+     "quote" : "È vero, non abbiamo vinto. Ci sono molti giocatori stranieri in squadra e ancora non si sono accordati su quale lingua parlare."},
 
      {"quote_url_share":"tutta-colpa-della-lega",
-     "quote" : "Domani abbiamo una partita importante, ma ci hanno fatto giocare pochi giorni fa con la Roma e poi con l’Inter. Se perdiamo sarà tutta colpa della Lega che non sa fare i calendari. Potevano almeno farci riposare giocando contro la Sambenedettese o la Triestina!",
-     "og_image_url": ""},
+     "quote" : "Domani abbiamo una partita importante, ma ci hanno fatto giocare pochi giorni fa con la Roma e poi con l’Inter. Se perdiamo sarà tutta colpa della Lega che non sa fare i calendari. Potevano almeno farci riposare giocando contro la Sambenedettese o la Triestina!"},
 
      {"quote_url_share":"partita-al-tramonto",
-     "quote" : "Ci hanno fatto iniziare la partita al tramonto e a metà gara è andata via la luce del Sole. I miei giocatori hanno paura del buio. Potevano almeno lasciare l'abat-jour accesa.",
-     "og_image_url": ""},
+     "quote" : "Ci hanno fatto iniziare la partita al tramonto e a metà gara è andata via la luce del Sole. I miei giocatori hanno paura del buio. Potevano almeno lasciare l'abat-jour accesa."},
 
      {"quote_url_share":"giocatori-troppo-rilassati",
-     "quote" : "I giocatori non si sono impegnati perché erano troppo rilassati. Mertens ieri è tornato dalle ferie in Olanda e ha portato un po' di erbetta per tutti.",
-     "og_image_url": ""},
+     "quote" : "I giocatori non si sono impegnati perché erano troppo rilassati. Mertens ieri è tornato dalle ferie in Olanda e ha portato un po' di erbetta per tutti."},
 
      {"quote_url_share":"usciti-dalla-coppa-italia",
-     "quote" : "È vero, siamo usciti dalla Coppa Italia e dalla Champions League. Questo perché abbiamo puntato tutto fin da subito sul Trofeo Tim.",
-     "og_image_url": ""},
+     "quote" : "È vero, siamo usciti dalla Coppa Italia e dalla Champions League. Questo perché abbiamo puntato tutto fin da subito sul Trofeo Tim."},
 
      {"quote_url_share":"giocatori-costosissimi",
-     "quote" : "Oggi puoi essere competitivo solo se compri giocatori costosissimi. Noi invece preferiamo spendere i soldi per cenare da Cannavacciuolo",
-     "og_image_url": ""},
+     "quote" : "Oggi puoi essere competitivo solo se compri giocatori costosissimi. Noi invece preferiamo spendere i soldi per cenare da Cannavacciuolo"},
 
      {"quote_url_share":"finale-stagione-gomorra",
-     "quote" : "Abbiamo perso perché i miei giocatori sono ancora sconvolti dal finale della terza stagione di Gomorra",
-     "og_image_url": ""},
+     "quote" : "Abbiamo perso perché i miei giocatori sono ancora sconvolti dal finale della terza stagione di Gomorra"},
 
      {"quote_url_share":"colpa-della-televisione",
-     "quote" : "Se abbiamo perso è soltanto per colpa della televisione. I ragazzi si sentivano a disagio davanti a così tante telecamere",
-     "og_image_url": ""},
+     "quote" : "Se abbiamo perso è soltanto per colpa della televisione. I ragazzi si sentivano a disagio davanti a così tante telecamere"},
 
      {"quote_url_share":"erba-troppo-alta",
-     "quote" : "I miei giocatori tirano in porta, ma non riescono a segnare. È tutta colpa dei giardinieri che lasciano l'erba troppo alta!",
-     "og_image_url": ""}
+     "quote" : "I miei giocatori tirano in porta, ma non riescono a segnare. È tutta colpa dei giardinieri che lasciano l'erba troppo alta!"}
 
- ]
+ ],
+ "og_images": [
+            {"url":""},
+            {"url":""},
+            {"url":""}
+        ]
 }

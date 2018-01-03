@@ -29,7 +29,7 @@ def pick_og_image():
     data = json.load(open('resources/quotes.json'))
     number_of_images = len(data["og_images"])
     og_image_index = random.randint(0,number_of_images-1)
-    return data["og_images"][og_image_index]
+    return data["og_images"][og_image_index]["url"]
 
 class MainResource:
     def on_get(self, req, resp):

@@ -1,17 +1,22 @@
 import falcon
 
+def load_template(filename, context={}):
+    f = open('public/templates/' + filename)
+    return f.read()
+
+class MainResource:
+    def on_get(self, req, resp):
+        resp.status = falcon.HTTP_200
+        resp.content_type = 'text/html'
+        resp.body = load_template('index.html')
+
 class QuoteResource:
     def on_get(self, req, resp):
-        """Handles GET requests"""
-        quote = {
-            'quote': (
-                "I've always been more interested in "
-                "the future than in the past."
-            ),
-            'author': 'Grace Hopper'
-        }
+        resp.status = falcon.HTTP_200
+        resp.content_type = 'text/html'
+        resp.body = load_template('says.html')
 
-        resp.media = quote
 
 api = falcon.API()
-api.add_route('/quote', QuoteResource())
+api.add_route('/', MainResource())
+api.add_route('/dice', QuoteResource())

@@ -6,11 +6,14 @@ import json
 import random
 from wsgi_static_middleware import StaticMiddleware
 
-from pymemcache.client.hash import HashClient
+import bmemcached
 
-memcached = HashClient([
-    ('memcached-13462.c6.eu-west-1-1.ec2.cloud.redislabs.com', 13462),
-])
+
+memcached = bmemcached.Client(
+    os.environ.get('MEMCACHEDCLOUD_SERVERS').split(','), 
+    os.environ.get('MEMCACHEDCLOUD_USERNAME'), 
+    os.environ.get('MEMCACHEDCLOUD_PASSWORD')
+)
 
 
 BASE_DIR = os.path.dirname(__name__)

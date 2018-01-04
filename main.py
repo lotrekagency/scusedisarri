@@ -9,7 +9,7 @@ from wsgi_static_middleware import StaticMiddleware
 
 BASE_DIR = os.path.dirname(__name__)
 STATIC_DIRS = [os.path.join(BASE_DIR, 'public')]
-LIVE_URL = 'https://sarridice.herokuapp.com'
+LIVE_URL = 'http://www.scusedisarri.it'
 
 log = logging.getLogger('SarriLogger')
 

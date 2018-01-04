@@ -110,6 +110,7 @@ class QuoteResource:
             resp.body = load_template('quote.html', context)
 
 
+memcached.flush_all()
 sslify = FalconSSLify()
 app = falcon.API(middleware=[sslify])
 

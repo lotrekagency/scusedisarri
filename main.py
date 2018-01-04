@@ -4,16 +4,21 @@ import pystache
 import logging
 import json
 import random
+
 from wsgi_static_middleware import StaticMiddleware
+from falcon_sslify import FalconSSLify
 
-import bmemcached
 
-
-memcached = bmemcached.Client(
-    os.environ.get('MEMCACHEDCLOUD_SERVERS').split(','), 
-    os.environ.get('MEMCACHEDCLOUD_USERNAME'), 
-    os.environ.get('MEMCACHEDCLOUD_PASSWORD')
-)
+try:
+    import bmemcached
+    memcached = bmemcached.Client(
+        os.environ.get('MEMCACHEDCLOUD_SERVERS').split(','), 
+        os.environ.get('MEMCACHEDCLOUD_USERNAME'), 
+        os.environ.get('MEMCACHEDCLOUD_PASSWORD')
+    )
+except:
+    from pymemcache.client.base import Client
+    memcached = Client(('localhost', 11211))
 
 
 BASE_DIR = os.path.dirname(__name__)
@@ -105,7 +110,8 @@ class QuoteResource:
             resp.body = load_template('quote.html', context)
 
 
-app = falcon.API()
+sslify = FalconSSLify()
+app = falcon.API(middleware=[sslify])
 
 app.add_route('/', MainResource())
 app.add_route('/dice', QuoteResource())

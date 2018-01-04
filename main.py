@@ -9,7 +9,7 @@ from wsgi_static_middleware import StaticMiddleware
 from pymemcache.client.hash import HashClient
 
 memcached = HashClient([
-    ('127.0.0.1', 11211),
+    ('memcached-13462.c6.eu-west-1-1.ec2.cloud.redislabs.com', 13462),
 ])
 
 

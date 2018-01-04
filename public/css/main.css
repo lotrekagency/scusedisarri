@@ -21,6 +21,13 @@ footer a {
     color: white;
 }
 
+.header {
+    background: rgba(0, 0, 0, 0.07058823529411765);
+    padding: .5em;
+    font-size: .5rem;
+    text-align: center;
+}
+
 .social-ui{
     max-height: 100px; 
     margin: -20px;

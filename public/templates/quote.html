@@ -1,12 +1,8 @@
 <head>
-<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-<style>
-.background{font-family:'Poppins', sans-serif;color:#f3f3f3;background: #87e0fd;
-background: -moz-linear-gradient(45deg, #87e0fd 0%, #53cbf1 40%, #02a1db 100%);
-background: -webkit-linear-gradient(45deg, #87e0fd 0%,#53cbf1 40%,#02a1db 100%);
-background: linear-gradient(45deg, #87e0fd 0%,#53cbf1 40%,#02a1db 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#02a1db',GradientType=1 );}.container{margin:auto;padding-top:105px}.title{text-align:center;margin:auto;font-size:2rem;font-weight:550;padding-top:105px}.subtitle{text-align:center;margin:auto font-size:1rem}.social{text-align:center;margin:auto font-size:0.2rem}a:link{color:#f3f3f3;text-decoration:none}a:visited{color:#f3f3f3;text-decoration:none}a:hover{color:#f3f3f3;text-decoration:underline}a:active{color:#f3f3f3;text-decoration:none}.generate-button{text-align:center;margin:auto;background-color:#02a1db;border:none;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px}
-</style>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/main.css">
 <meta charset="utf-8">
 
 <meta name="msapplication-TileColor" content="#02a1db">
@@ -44,28 +40,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', end
 
 </head>
 <body class="background">
-<div class="container">
-    <div>
-    <p>
-        <h1 class="title">{{quote}}</h1>
-    </p>
-</div><br>
-    <div>
-        <center><a class="generate-button" href="/dice">Genera un'altra scusa!</a></center><br><br>
-        <h4 class="subtitle">Condividi la scusa sui social!</h4>
-        <p class="social">
-            <a  class="social_button"
-                href="https://www.facebook.com/sharer/sharer.php?u={{live_url}}/dice/{{quote_url_share}}">Facebook</a><span> | </span>
-            <a  class="social_button"
-                href="https://twitter.com/home?status={{live_url}}/dice/{{quote_url_share}}">Twitter</a>
-        </p>
+    <div class="container">
+    <div class="main-content">
+        <div class="quote-container">
+
+            <img class="sarri-face" src="{{og_image_url}}">
+            <p>{{quote}}</p>
+
+        </div>
 
     </div>
-
-</div><br><br>
-<footer>
-    <center>
-        made by <a class="social" href="https://lotrek.it">Lotrèk</a>
-    </center>
+        <div class="text-align-center">
+            <a class="generate-button" href="/dice">Genera un'altra scusa!</a>
+            <br>
+            <br>
+            <h4 class="subtitle">Condividi la scusa sui social!</h4>
+            <p class="social">
+                <a class="social_button" href="https://www.facebook.com/sharer/sharer.php?u={{live_url}}/dice/{{quote_url_share}}">Facebook</a>
+                <span> | </span>
+                <a class="social_button" href="https://twitter.com/home?status={{live_url}}/dice/{{quote_url_share}}">Twitter</a>
+            </p>
+        
+        </div>
+    <footer>
+        <center>
+            made by <a class="social" href="https://lotrek.it">Lotrèk</a>
+        </center>
     </footer>
+    </div>
 </body>

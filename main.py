@@ -18,7 +18,7 @@ try:
     )
 except:
     from pymemcache.client.base import Client
-    memcached = Client(('localhost', 11211))
+    memcached = Client(('127.0.0.1', 11211))
 
 
 BASE_DIR = os.path.dirname(__name__)
@@ -34,7 +34,7 @@ def get_from_cache(key):
 
 
 def set_value_in_cache(key, value):
-    value = memcached.set('SARRI-', value.encode('UTF-8'))
+    value = memcached.set('SARRI-' + key, value.encode('UTF-8'))
     return value
 
 
@@ -56,6 +56,8 @@ def pick_quote(searched_quote=None):
         data = json.loads(quotes_json)
         set_value_in_cache('quotes', quotes_json)
         f.close()
+    else:
+        data = json.loads(data)
     if searched_quote:
         for quote in data["quotes"]:
             if quote['quote_url_share'] == searched_quote:
@@ -76,6 +78,8 @@ def pick_og_image():
         data = json.loads(quotes_json)
         set_value_in_cache('quotes', quotes_json)
         f.close()
+    else:
+        data = json.loads(data)
     number_of_images = len(data["og_images"])
     og_image_index = random.randint(0,number_of_images-1)
     return data["og_images"][og_image_index]["url"]

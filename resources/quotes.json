@@ -46,9 +46,9 @@
 
  ],
  "og_images": [
-            {"url" : "/static/images/sarri_01.jpg"},
-            {"url" : "/static/images/sarri_02.jpg"},
-            {"url" : "/static/images/sarri_03.jpg"},
-            {"url" : "/static/images/sarri_04.jpg"}
+            {"url" : "/static/images/sarri_01.png"},
+            {"url" : "/static/images/sarri_02.png"},
+            {"url" : "/static/images/sarri_03.png"},
+            {"url" : "/static/images/sarri_04.png"}
         ]
 }

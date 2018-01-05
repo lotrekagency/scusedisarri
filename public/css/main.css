@@ -70,6 +70,7 @@ footer a {
     background: #02a1db;
     box-shadow:  0px 5px 0px #2092bb; 
     color: white;
+    margin-left: 3px;
 }   
 .generate-button:hover{
     box-shadow:  0px 0px 0px #2092bb; 

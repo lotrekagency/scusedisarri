@@ -4,6 +4,6 @@
 
     pip install -r requirements.txt
 
-## Start server
+## Start dev server
 
     ./start.sh

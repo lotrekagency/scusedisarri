@@ -116,8 +116,13 @@ class QuoteResource:
 
 memcached.flush_all()
 sslify = FalconSSLify()
-app = falcon.API(middleware=[sslify])
 
+DEV = os.environ.get('SARRI_DEV', 0)
+if DEV:
+    log.error(DEV)
+    app = falcon.API()
+else:
+    app = falcon.API(middleware=[sslify])
 app.add_route('/', MainResource())
 app.add_route('/dice', QuoteResource())
 app.add_route('/dice/{quote}', QuoteResource())

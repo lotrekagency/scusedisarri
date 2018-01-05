@@ -1,48 +1,173 @@
 { "quotes" : [
-    {"quote_url_share":"giovedi-sera-calcetto",
-     "quote" : "I giocatori non si sono impegnati perché hanno preferito preservare le forze. Giovedì sera hanno il calcetto"},
+    {
+        "quote_url_share":"giovedi-sera-calcetto",
+        "quote" : "I giocatori non si sono impegnati perché hanno preferito preservare le forze. Giovedì sera hanno il calcetto"
+    },
 
-    {"quote_url_share":"cane-mangia-schemo",
-     "quote" : "Purtroppo questa settimana non ho potuto preparare i ragazzi alla partita. Il cane mi ha mangiato gli schemi"},
+    {
+        "quote_url_share":"cane-mangia-schemo",
+        "quote" : "Purtroppo questa settimana non ho potuto preparare i ragazzi alla partita. Il cane mi ha mangiato gli schemi"
+    },
 
-    {"quote_url_share":"a-pes-siamo-primi",
-     "quote" : "Il campionato e le coppe non sono la nostra specialità. Ma a PES siamo primi."},
+    {
+        "quote_url_share":"a-pes-siamo-primi",
+        "quote" : "Il campionato e le coppe non sono la nostra specialità. Ma a PES siamo primi."
+    },
 
-    {"quote_url_share":"la-palla-ha-preso-la-mano-di-mertens",
-     "quote" : "Mertens non ha preso la palla con la mano. È la palla che ha preso la mano di Mertens"},
+    {
+        "quote_url_share":"la-palla-ha-preso-la-mano-di-mertens",
+        "quote" : "Mertens non ha preso la palla con la mano. È la palla che ha preso la mano di Mertens"
+    },
 
-    {"quote_url_share":"arbitro-razzista",
-     "quote" : "Il fallo di mano di Mertens è stato fischiato perché l'arbitro è razzista. Quando successe con Maradona nessuno disse niente soltanto perché era italiano"},
+    {
+        "quote_url_share":"arbitro-razzista",
+        "quote" : "Il fallo di mano di Mertens è stato fischiato perché l'arbitro è razzista. Quando successe con Maradona nessuno disse niente soltanto perché era italiano"
+    },
 
-    {"quote_url_share":"infortunio-milik",
-     "quote" : "Cosa penso dell'infortunio di Milik? È tutta colpa delle scie chimiche!"},
+    {
+        "quote_url_share":"infortunio-milik",
+        "quote" : "Cosa penso dell'infortunio di Milik? È tutta colpa delle scie chimiche!"
+    },
 
-    {"quote_url_share":"giocatori-stranieri",
-     "quote" : "È vero, non abbiamo vinto. Ci sono molti giocatori stranieri in squadra e ancora non si sono accordati su quale lingua parlare."},
+    {
+        "quote_url_share":"giocatori-stranieri",
+        "quote" : "È vero, non abbiamo vinto. Ci sono molti giocatori stranieri in squadra e ancora non si sono accordati su quale lingua parlare."
+    },
 
-     {"quote_url_share":"tutta-colpa-della-lega",
-     "quote" : "Domani abbiamo una partita importante, ma ci hanno fatto giocare pochi giorni fa con la Roma e poi con l’Inter. Se perdiamo sarà tutta colpa della Lega che non sa fare i calendari. Potevano almeno farci riposare giocando contro la Sambenedettese o la Triestina!"},
+    {
+        "quote_url_share":"tutta-colpa-della-lega",
+        "quote" : "Domani abbiamo una partita importante, ma ci hanno fatto giocare pochi giorni fa con la Roma e poi con l’Inter. Se perdiamo sarà tutta colpa della Lega che non sa fare i calendari. Potevano almeno farci riposare giocando contro la Sambenedettese o la Triestina!"
+    },
 
-     {"quote_url_share":"partita-al-tramonto",
-     "quote" : "Ci hanno fatto iniziare la partita al tramonto e a metà gara è andata via la luce del Sole. I miei giocatori hanno paura del buio. Potevano almeno lasciare l'abat-jour accesa."},
+    {
+        "quote_url_share":"partita-al-tramonto",
+        "quote" : "Ci hanno fatto iniziare la partita al tramonto e a metà gara è andata via la luce del Sole. I miei giocatori hanno paura del buio. Potevano almeno lasciare l'abat-jour accesa."
+    },
 
-     {"quote_url_share":"giocatori-troppo-rilassati",
-     "quote" : "I giocatori non si sono impegnati perché erano troppo rilassati. Mertens ieri è tornato dalle ferie in Olanda e ha portato un po' di erbetta per tutti."},
+    {
+        "quote_url_share":"giocatori-troppo-rilassati",
+        "quote" : "I giocatori non si sono impegnati perché erano troppo rilassati. Mertens ieri è tornato dalle ferie in Olanda e ha portato un po' di erbetta per tutti."
+    },
 
-     {"quote_url_share":"usciti-dalla-coppa-italia",
-     "quote" : "È vero, siamo usciti dalla Coppa Italia e dalla Champions League. Questo perché abbiamo puntato tutto fin da subito sul Trofeo Tim."},
+    {
+        "quote_url_share":"usciti-dalla-coppa-italia",
+        "quote" : "È vero, siamo usciti dalla Coppa Italia e dalla Champions League. Questo perché abbiamo puntato tutto fin da subito sul Trofeo Tim."
+    },
 
-     {"quote_url_share":"giocatori-costosissimi",
-     "quote" : "Oggi puoi essere competitivo solo se compri giocatori costosissimi. Noi invece preferiamo spendere i soldi per cenare da Cannavacciuolo"},
+     {
+        "quote_url_share":"giocatori-costosissimi",
+        "quote" : "Oggi puoi essere competitivo solo se compri giocatori costosissimi. Noi invece preferiamo spendere i soldi per cenare da Cannavacciuolo"
+    },
 
-     {"quote_url_share":"finale-stagione-gomorra",
-     "quote" : "Abbiamo perso perché i miei giocatori sono ancora sconvolti dal finale della terza stagione di Gomorra"},
+    {
+        "quote_url_share":"finale-stagione-gomorra",
+        "quote" : "Abbiamo perso perché i miei giocatori sono ancora sconvolti dal finale della terza stagione di Gomorra"
+    },
 
-     {"quote_url_share":"colpa-della-televisione",
-     "quote" : "Se abbiamo perso è soltanto per colpa della televisione. I ragazzi si sentivano a disagio davanti a così tante telecamere"},
+    {
+        "quote_url_share":"colpa-della-televisione",
+        "quote" : "Se abbiamo perso è soltanto per colpa della televisione. I ragazzi si sentivano a disagio davanti a così tante telecamere"
+    },
 
-     {"quote_url_share":"erba-troppo-alta",
-     "quote" : "I miei giocatori tirano in porta, ma non riescono a segnare. È tutta colpa dei giardinieri che lasciano l'erba troppo alta!"}
+    {
+        "quote_url_share":"molli-sulle-gambe",
+        "quote" : "Siamo stati molli sulle gambe è vero, ma vorrei vedere voi dopo una maratona di 9 ore sui cinepanettoni che ci propina tutti gli anni il Presidente."
+    },
+
+    {
+        "quote_url_share":"colpa-ferlaino",
+        "quote" : "È stata colpa di Ferlaino."
+    },
+
+    {
+        "quote_url_share":"mancini-in-tribuna",
+        "quote" : "M'era sembrato di vedere Mancini in tribuna e mi son concentrato su di lui e il suo foulard."
+    },
+
+    {
+        "quote_url_share":"obiettivo-salvezza",
+        "quote" : "Sono comunque soddisfatto perché con il budget che abbiamo l’obiettivo resta comunque la salvezza."
+    },
+
+    {
+        "quote_url_share":"colpa-di-messi",
+        "quote" : "È colpa di Messi, perché gioca nel Barcellona."
+    },
+
+    {
+        "quote_url_share":"ha-giocato-maggio",
+        "quote" : "Ha giocato Maggio."
+    },
+
+    {
+        "quote_url_share":"reduci-di-capodanno",
+        "quote" : "Siamo reduci dai bombardamenti in città per Capodanno."
+    },
+
+    {
+        "quote_url_share":"stop-pizza-fritta",
+        "quote" : "Forse dovremmo smetterla con questa benedetta pizza fritta."
+    },
+
+    {
+        "quote_url_share":"finite-le-sigarette",
+        "quote" : "Non ho visto tutta la partita. Ho finito le sigarette nel primo tempo, non so nemmeno com’è finita da quanto mi giravano..."
+    },
+
+    {
+        "quote_url_share":"whatsapp-offline",
+        "quote" : "Non mi funzionava Whatsapp per chiamare il VAR"
+    },
+
+    {
+        "quote_url_share":"terza-maglia",
+        "quote" : "Abbiamo usato la terza maglia... ma l’avete vista?!"
+    },
+
+    {
+        "quote_url_share":"venerdi",
+        "quote" : "È Venerdì, abbiamo avuto un giorno in meno per lavorare."
+    },
+
+    {
+        "quote_url_share":"sabato",
+        "quote" : "È Sabato, non siamo più abituati a giocare di sabato."
+    },
+
+    {
+        "quote_url_share":"domenica",
+        "quote" : "È Domenica, abbiamo avuto un giorno in più per lavorare e si sono stancati."
+    },
+
+    {
+        "quote_url_share":"colpa-di-ronaldo",
+        "quote" : "È Colpa di Cristiano Ronaldo perché gioca nel Real."
+    },
+
+    {
+        "quote_url_share":"formazione-cambiata",
+        "quote" : "Avevo fatto la formazione con Higuain, poi me l’hanno fatto notare e ho dovuto cambiare tutto all’ultimo."
+    },
+
+    {
+        "quote_url_share":"prediciottesimo",
+        "quote" : "Ieri eravamo ad un prediciottesimo. Ci ha massacrato."
+    },
+
+    {
+        "quote_url_share":"baba-ovunque",
+        "quote" : "Babà. Babà, Babà ovunque."
+    },
+
+    {
+        "quote_url_share":"volevo-perdere",
+        "quote" : "Io volevo perdere, quindi obiettivo raggiunto."
+    },
+
+    {
+        "quote_url_share":"controllo-in-ospedale",
+        "quote" : "Prima di arrivare allo stadio abbiamo fatto un incidente e siamo andati all’ospedale per un controllo, poi ci s’è rotto il pullman e avevamo anche un funerale."
+    }
 
  ],
  "og_images": [

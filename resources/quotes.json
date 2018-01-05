@@ -45,11 +45,6 @@
     },
 
     {
-        "quote_url_share":"giocatori-troppo-rilassati",
-        "quote" : "I giocatori non si sono impegnati perché erano troppo rilassati. Mertens ieri è tornato dalle ferie in Olanda e ha portato un po' di erbetta per tutti."
-    },
-
-    {
         "quote_url_share":"usciti-dalla-coppa-italia",
         "quote" : "È vero, siamo usciti dalla Coppa Italia e dalla Champions League. Questo perché abbiamo puntato tutto fin da subito sul Trofeo Tim."
     },
@@ -167,6 +162,231 @@
     {
         "quote_url_share":"controllo-in-ospedale",
         "quote" : "Prima di arrivare allo stadio abbiamo fatto un incidente e siamo andati all’ospedale per un controllo, poi ci s’è rotto il pullman e avevamo anche un funerale."
+    },
+
+    {
+        "quote_url_share":"giaccherini-mai-decisivo",
+        "quote" : "Milik sarebbe stato decisivo. Colpa di Giaccherini che non gioca mai e non è mai decisivo."
+    },
+
+    {
+        "quote_url_share":"il-calcio-piu-bello",
+        "quote" : "Oh... Comunque si gioca il calcio più bello eh!"
+    },
+
+    {
+        "quote_url_share":"dragonball-super",
+        "quote" : "Siamo stati un po’ incerti oggi, ma è colpa di Dragonball Super, siamo da più di due mesi alla solita battaglia, poi perdi la concentrazione, è fisiologico."
+    },
+
+    {
+        "quote_url_share":"mica-la-juve",
+        "quote" : "Non siamo mica la Juve."
+    },
+
+    {
+        "quote_url_share":"eliminazione-italia",
+        "quote" : "Perché non parliamo dell’eliminazione dell’Italia, eh?!"
+    },
+
+    {
+        "quote_url_share":"holly-e-benji",
+        "quote" : "Si giocava nel campo di Holly e Benji."
+    },
+
+    {
+        "quote_url_share":"visita-a-pompei",
+        "quote" : "Ieri siamo andati a far visita a Pompei, siamo ancora scioccati."
+    },
+
+    {
+        "quote_url_share":"tutti-davanti-alla-porta",
+        "quote" : "E si son messi tutti davanti alla porta! Che devi fà!?!"
+    },
+
+    {
+        "quote_url_share":"dignitosamente-brilli",
+        "quote" : "Ieri sera qualcuno dei nostri era dignitosamente brillo e si è messo ad ululare per strada, come i lupi."
+    },
+
+    {
+        "quote_url_share":"black-russian",
+        "quote" : "Ma lo sapevi che il Black Russian ha una gradazione alcolica sopra il 60% ? Ecco, io no e nemmeno Reina."
+    },
+
+    {
+        "quote_url_share":"pavoletti-non-si-integra",
+        "quote" : "Pavoletti non si è ancora integrato."
+    },
+
+    {
+        "quote_url_share":"lo-stato-borghese",
+        "quote" : "È colpa della mancata abolizione dello stato borghese."
+    },
+
+    {
+        "quote_url_share":"kim-jong-un",
+        "quote" : "Me l’ha chiesto Kim Jong-un di perdere. Che dovevo fare?"
+    },
+
+    {
+        "quote_url_share":"caccamo-porta-sfiga",
+        "quote" : "Ho visto Caccamo ieri prima della partita. Caccamo porta sfiga."
+    },
+
+    {
+        "quote_url_share":"caffe-cicirinella",
+        "quote" : "Non è arrivato il caffè di Cicirinella."
+    },
+
+    {
+        "quote_url_share":"tirare-col-cerchio",
+        "quote" : "Sono abituato a tirare col cerchio."
+    },
+
+    {
+        "quote_url_share":"freccie-in-giu",
+        "quote" : "Avevo tutti i giocatori con le frecce in giù."
+    },
+
+    {
+        "quote_url_share":"troppa-lag",
+        "quote" : "Troppa lag."
+    },
+
+    {
+        "quote_url_share":"fuori-tutto-il-giorno",
+        "quote" : "Fuori tutto il giorno, a pranzo un panino e non ci vedevamo più dalla fame."
+    },
+
+    {
+        "quote_url_share":"depressi-a-pranzo",
+        "quote" : "A pranzo ci hanno dato dei panini e ci siamo depressi ricordando Higuain."
+    },
+
+    {
+        "quote_url_share":"pieno-di-buche",
+        "quote" : "Era pieno di buche solo dove attaccavamo noi, nel secondo tempo si sono spostate."
+    },
+
+    {
+        "quote_url_share":"complotto",
+        "quote" : "Evidentemente qualcuno non vuole farci vincere questo scudetto..."
+    },
+
+    {
+        "quote_url_share":"sigarette-con-svapo",
+        "quote" : "Mi hanno sostituito le sigarette con lo svapo. Non ero lucido."
+    },
+
+    {
+        "quote_url_share":"colpa-di-mancini",
+        "quote" : "Tutto colpa di Mancini."
+    },
+
+    {
+        "quote_url_share":"questa-contava",
+        "quote" : "Ma scusa, questa contava?"
+    },
+
+    {
+        "quote_url_share":"partita-di-prova",
+        "quote" : "Ma non era una partita di prova?"
+    },
+
+    {
+        "quote_url_share":"zaza-gol",
+        "quote" : "Zaza ha fatto goal a buo di culo. Se ci riprova altre 100 volte..."
+    },
+
+    {
+        "quote_url_share":"maskimovic-non-rende",
+        "quote" : "Maksimovic non sta rendendo secondo le aspettative."
+    },
+
+    {
+        "quote_url_share":"sempre-troppi-panchinari",
+        "quote" : "Ho troppi panchinari, poi devo fare i cambi e non ci capisco una sega. Ma non si può stare sempre in 11?"
+    },
+
+    {
+        "quote_url_share":"volevo-perdere",
+        "quote" : "Io volevo perdere, quindi obiettivo raggiunto."
+    },
+
+    {
+        "quote_url_share":"mancano-soldi-cinesi",
+        "quote" : "Ci mancano i soldi dei cinesi."
+    },
+
+    {
+        "quote_url_share":"presidente-e-bitcoin",
+        "quote" : "Il Presidente sta investendo tutto in Bitcoin."
+    },
+
+    {
+        "quote_url_share":"reina-bitcoin",
+        "quote" : "Reina non ha ancora capito come funziona il Bitcoin e questo non lo fa stare sereno."
+    },
+
+    {
+        "quote_url_share":"troppo-alti-in-difesa",
+        "quote" : "Erano troppo alti in difesa... Degli spilungoni..."
+    },
+
+    {
+        "quote_url_share":"sotto-pressione-inseguitrici",
+        "quote" : "Una sconfitta voluta per tenere sotto pressione le inseguitrici."
+    },
+
+    {
+        "quote_url_share":"colpa-tua",
+        "quote" : "È colpa tua."
+    },
+
+    {
+        "quote_url_share":"masini-ha-chiamato",
+        "quote" : "Mi ha chiamato 2 giorni fa Marco Masini e ci ha dedicato una canzone."
+    },
+
+    {
+        "quote_url_share":"leggo-libro-la-sera",
+        "quote" : "Allora! tutte le sere prima di andare a dormire leggo un libro a Insigne. Mertens e Jorginho mentre gli rimbocco le coperte, sennò non si addormentano.. Ieri sera c’era un vento forte forte e non hanno chiuso gli occhi tutta la sera."
+    },
+
+    {
+        "quote_url_share":"qualcuno-ci-rema-contro",
+        "quote" : "Ci hanno fatto goal, non era previsto, c’è qualcuno che ci rema contro."
+    },
+
+    {
+        "quote_url_share":"sparecchiavo",
+        "quote" : "Sparecchiavo."
+    },
+
+    {
+        "quote_url_share":"vento-a-sfavore",
+        "quote" : "Vento a sfavore che poi nel secondo tempo ha pure cambiato direzione!"
+    },
+
+    {
+        "quote_url_share":"tutta-la-notte-a-cercare-will",
+        "quote" : "I giocatori sono stanchi perchè passano tutta la notte a cercare Will nel Sottosopra."
+    },
+
+    {
+        "quote_url_share":"gli-altri",
+        "quote" : "Ma come s'è perso? Non eravamo quegl'altri?"
+    },
+
+    {
+        "quote_url_share":"selvaggi-coi-tatuaggi",
+        "quote" : "È colpa di quei selvaggi coi tatuaggi, sarà che si faranno i viaggi ma è il sognare che li rende saggi."
+    },
+
+    {
+        "quote_url_share":"autobus-lontano",
+        "quote" : "Ci hanno parcheggiato l’autobus lontano dallo stadio, per questo eravamo fiacchi."
     }
 
  ],

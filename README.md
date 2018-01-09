@@ -2,8 +2,8 @@
 
 ## Install
 
-    pip install -r requirements.txt
+    pip install -r requirements-dev.txt
 
 ## Start dev server
 
-    ./start.sh
+    python run.py

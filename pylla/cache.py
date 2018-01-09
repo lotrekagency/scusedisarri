@@ -1,13 +1,13 @@
+import settings
+import bmemcached
+
 try:
-    import bmemcached
     memcached = bmemcached.Client(
-        os.environ.get('MEMCACHEDCLOUD_SERVERS').split(','), 
-        os.environ.get('MEMCACHEDCLOUD_USERNAME'), 
-        os.environ.get('MEMCACHEDCLOUD_PASSWORD')
+        settings.MEMCACHED['servers'],
+        **settings.MEMCACHED['settings']
     )
-except:
-    from pymemcache.client.base import Client
-    memcached = Client(('127.0.0.1', 11211))
+except Exception as ex:
+    print (ex)
 
 
 def get_from_cache(key):

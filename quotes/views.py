@@ -4,7 +4,7 @@ from pylla.cache import get_from_cache, set_value_in_cache
 from pylla.templates import load_template
 
 from sarri.utils import pick_og_image
-from sarri import settings
+import settings
 
 from .utils import pick_quote
 

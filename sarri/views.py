@@ -5,7 +5,7 @@ from pylla.responses import HttpResponse
 from pylla.cache import get_from_cache, set_value_in_cache
 from pylla.templates import load_template
 
-from sarri import settings
+import settings
 from sarri.utils import pick_og_image
 
 class MainView(View):

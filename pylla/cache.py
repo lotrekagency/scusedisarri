@@ -11,10 +11,10 @@ except Exception as ex:
 
 
 def get_from_cache(key):
-    value = memcached.get('SARRI-' + key)
+    value = memcached.get(key)
     return value
 
 
 def set_value_in_cache(key, value):
-    value = memcached.set('SARRI-' + key, value.encode('UTF-8'))
+    value = memcached.set(key, value.encode('UTF-8'))
     return value

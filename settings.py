@@ -15,4 +15,4 @@ MEMCACHED = {
     }
 }
 
-SSL = False
+SSL_REDIRECT = False

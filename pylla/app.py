@@ -14,4 +14,3 @@ class App(falcon.API):
         urls_module = importlib.import_module(urls_module_path)
         for url in urls_module.urls:
             self.add_route(url[0], url[1])
-

@@ -13,7 +13,6 @@ for directory in os.listdir('./'):
         tempalte_directories.append(directory)
     elif os.path.isdir(sub_directory):
         tempalte_directories.append(sub_directory)
-print (tempalte_directories)
 template_lookup = TemplateLookup(directories=tempalte_directories)
 
 

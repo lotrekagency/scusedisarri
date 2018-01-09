@@ -7,7 +7,7 @@ try:
         **settings.MEMCACHED['settings']
     )
 except Exception as ex:
-    print (ex)
+    pass
 
 
 def get_from_cache(key):

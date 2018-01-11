@@ -1,4 +1,6 @@
+from falcon.response import Response
 from .status_codes import *
+
 
 class HttpResponse():
 
@@ -18,3 +20,9 @@ class HttpResponse():
         resp.content_type = self.content_type
         #resp.headers = self.headers
         
+
+class JSONResponse():
+    pass
+
+class TemplateResponse():
+    pass

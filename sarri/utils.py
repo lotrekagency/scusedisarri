@@ -1,7 +1,7 @@
 import json
 import random
 
-from pylla.cache import get_from_cache, set_value_in_cache
+from ukumuku.cache import get_from_cache, set_value_in_cache
 
 
 def pick_og_image():

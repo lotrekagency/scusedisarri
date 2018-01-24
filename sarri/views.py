@@ -4,7 +4,7 @@ import ukumuku
 from ukumuku.views import View
 from ukumuku.responses import HttpResponse
 from ukumuku.cache import get_from_cache, set_value_in_cache
-from ukumuku.templates import load_template
+from ukumuku.templates import template_engine
 from ukumuku.utils import absolute_url
 
 import settings
@@ -17,7 +17,7 @@ class MainView(View):
             'og_image_url' :  pick_og_image()
         }
         return HttpResponse(
-            load_template('sarri/index.html', context),
+            template_engine.render_template('sarri/index.html', context),
         )
 
 
@@ -29,4 +29,4 @@ class MainResource:
             'live_url' : settings.LIVE_URL,
             'og_image_url' :  pick_og_image()
         }
-        resp.body = load_template('sarri/index.html', context)
+        resp.body = template_engine.render_template('sarri/index.html', context)

@@ -122,7 +122,7 @@ if DEV:
     log.error(DEV)
     app = falcon.API()
 else:
-    app = falcon.API(middleware=[sslify])
+    app = falcon.API()
 app.add_route('/', MainResource())
 app.add_route('/dice', QuoteResource())
 app.add_route('/dice/{quote}', QuoteResource())
